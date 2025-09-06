@@ -12,7 +12,7 @@ export function NavBar() {
 
     return (
         <nav 
-        className={`fixed top-0 left-0 right-0 z-50 flex flex-row items-center h-24 px-32 bg-background border-b border-muted transition-all duration-300`}
+        className={`fixed top-0 left-0 right-0 z-50 flex flex-row items-center h-24 px-16 sm:px-32 bg-background border-b border-muted transition-all duration-300`}
         >
             <div>
                 <Link href="/">
